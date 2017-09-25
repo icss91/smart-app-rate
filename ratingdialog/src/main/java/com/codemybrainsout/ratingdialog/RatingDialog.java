@@ -314,7 +314,7 @@ public class RatingDialog extends AppCompatDialog implements RatingBar.OnRatingB
             return false;
         } else {
             SharedPreferences.Editor editor = sharedpreferences.edit();
-            editor.putInt(SESSION_COUNT, 2);
+            editor.putInt(SESSION_COUNT, 1);
             editor.commit();
             return false;
         }
